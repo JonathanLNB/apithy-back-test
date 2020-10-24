@@ -1,0 +1,19 @@
+{
+  "name": "apithy",
+  "version": "1.0.0",
+  "description": "Apithy Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanLNB/apithy-back-test.git"
+  },
+  "author": "JonathanLNB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanLNB/apithy-back-test/issues"
+  },
+  "homepage": "https://github.com/JonathanLNB/apithy-back-test#readme"
+}
