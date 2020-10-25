@@ -67,6 +67,25 @@ Seguido de esto debemos ingresar a la carpeta del proyecto.
 cd apithy-back-test/
 ```
 
+
+Encuanto a la base de datos dentro del repositorio se adjunto el script de la base de datos.
+
+Como se comento antes el gestor de base de datos es MySQL. Para el proyecto se creo una base de datos y un usuario como se muestra con los siguientes comandos.
+
+```mysql
+mysql
+create database apithy;
+create user 'apithy'@'%' identified by "apithy_test";
+grant all privileges on apithy.* to 'apithy'@'%';
+exit
+```
+
+Restauramos la base de datos con el archivo Apithy.sql
+
+```bash
+mysql -u apithy -p apithy < Apithy.sql  
+```
+
 Y por ultimo instalamos las dependencias e iniciamos el servidor con Nodemon.
 
 
