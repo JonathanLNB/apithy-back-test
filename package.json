@@ -4,7 +4,7 @@
   "description": "Apithy Test",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/app"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/JonathanLNB/apithy-back-test/issues"
   },
-  "homepage": "https://github.com/JonathanLNB/apithy-back-test#readme"
+  "homepage": "https://github.com/JonathanLNB/apithy-back-test#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "mysql": "^2.18.1",
+    "xlsx": "^0.16.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
