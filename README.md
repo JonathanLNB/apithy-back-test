@@ -4,7 +4,7 @@ Esta aplicación consiste en una serie de microservicios para consulta e importa
 
 ## Documentación 
 
-Para documentar los endpoints decidi utilizar la herramienta de Postman esta información se puede visualizar en la siguiente liga: 
+Para documentar los endpoints decidí utilizar la herramienta de Postman esta información se puede visualizar en la siguiente liga: 
 
 [https://documenter.getpostman.com/view/10223796/TVYF7y67](https://documenter.getpostman.com/view/10223796/TVYF7y67).
 
@@ -75,7 +75,7 @@ Como se comento antes el gestor de base de datos es MySQL. Para el proyecto se c
 ```mysql
 mysql
 create database apithy;
-create user 'apithy'@'%' identified by "apithy_test";
+create user 'apithy'@'%' identified by "apithy_test"; -- En caso de requerir otros datos de conexión el archivo config.js cuenta con la configuración para la conexión de la base de datos
 grant all privileges on apithy.* to 'apithy'@'%';
 exit
 ```
@@ -86,7 +86,7 @@ Restauramos la base de datos con el archivo Apithy.sql
 mysql -u apithy -p apithy < Apithy.sql  
 ```
 
-Y por ultimo instalamos las dependencias e iniciamos el servidor con Nodemon.
+Y por último instalamos las dependencias e iniciamos el servidor con Nodemon.
 
 
 ```npm
